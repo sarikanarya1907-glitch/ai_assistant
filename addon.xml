@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ai_assistant</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <default_language>tr</default_language>
+    <name>AI Asistan</name>
+    <description>OpenAI ChatGPT ile ürün açıklaması ve sohbet asistanı sağlar.</description>
+    <settings>
+        <section id="general" name="Genel">
+            <item id="api_key" type="input" name="OpenAI API Anahtarı" value="" />
+        </section>
+    </settings>
+</addon>
